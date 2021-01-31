@@ -1,0 +1,20 @@
+{
+  "name": "tst-signup-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild --bundle --platform=browser --minify --target=es2017 --define:process.env.NODE_ENV=\\\"production\\\" --outfile=public/index.js src/index.jsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/css": "^11.1.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "esbuild": "^0.8.38"
+  }
+}
